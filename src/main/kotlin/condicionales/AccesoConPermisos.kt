@@ -1,11 +1,11 @@
 package condicionales
 
 fun main() {
-    val tieneInscricion = false
+    val tieneInscripcion = false
     val esAdministrador = true
-    val estaBloqueado = true
+    val estaBloqueado = false
 
-    if ((tieneInscricion || esAdministrador) && !estaBloqueado) {
+    if ((tieneInscripcion || esAdministrador) && !estaBloqueado) {
         println("Acceso permitido")
     } else {
         println("Acceso denegado")
